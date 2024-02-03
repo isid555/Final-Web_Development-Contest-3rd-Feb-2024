@@ -1,0 +1,84 @@
+.hear{
+    display: flex;
+    justify-content: center;
+align-items: center;
+border-bottom: 3px solid rgb(204, 188, 187);
+
+
+}
+.Asst{
+    padding-right: 700px;
+}
+.Bsst{
+    margin-left: 300px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post-area{
+background-color: #bbd1da;
+height: 100vh;
+width: 50vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.post-button{
+    background-color: blue;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.post-view{
+    background-color: blanchedalmond;
+    height: 100vh;
+    width: 50vh;
+    
+}
+.post-input{
+    background-color: thistle;
+    width: 50vh; 
+   height: 30vh;
+}
+.post-input span{
+    color: rgb(158, 157, 157);
+    font-size: large;
+}
+.posting{
+    background-color:rgb(15, 175, 238);
+    border-radius: 30px;
+    padding: 10px;
+    height: 13vh;
+    width: 35vh;
+    color: #f7d7d7;
+    font-size: 0.76rem;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.min{
+    display: flex;
+}
+.post-saved{
+    height: 12.5rem;
+    border: 2.7px solid gray;
+    border-radius: 29px;
+    background-color: hsl(83, 48%, 82%);
+}
+.post-saved span{
+    font-size:large;
+    color: black;
+    font-weight: bold;
+}
+.post-saved .heading{
+/* gap: 10px; */
+/* display: flex; */
+gap: 10px;
+cursor: pointer;
+}
+.area span{
+    color: rgb(36, 33, 33);
+    font-weight: lighter;
+}
